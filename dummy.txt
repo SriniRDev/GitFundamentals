@@ -2,3 +2,6 @@ dummy file
 branch2 change
 branch2 change one more
 master change
+branch3 change
+branch3 one more change
+branch3 more changes
