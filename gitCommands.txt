@@ -1,0 +1,11 @@
+git clone {repository URL}
+
+cd into clone repository directory
+git status
+git checkout -b "{featureBranchName}"   --> creates(if not exist ) branch and checkout to branch
+git checkout {featureBranchName} --> checkout to an existing branch
+git diff {fileName} --> to see changes done in the file
+git commit -am "{commmitMessage}" --> to add the file to tracking (a) and commit with commit message(m)
+git push origin {featureBranchName} --> to push the local feature branch commits to remote
+
+git pull --> to refresh(import) local branch with changes from remote branch ( eg: to refresh master branch)
